@@ -1,0 +1,34 @@
+.container{
+    width: 100%;
+    height: 62.5vw;
+    background-color: powderblue;
+}
+
+.block{
+    width: 25vw;
+    height: 25vw;
+    background-color:blue;
+    margin-top: 5px;
+    
+}
+.stroked{
+    border: 3px solid black;
+}
+.rectangle{
+    width: 60vw;
+    height: 25vw;
+    background-color: purple;
+    margin-top: 5px;
+}
+.block2{
+    background-color: red;
+    width: 25vw;
+    height: 25vw;
+}
+div:hover {
+    width: 100px;
+}
+div {
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
